@@ -1,9 +1,11 @@
 {
   "name": "project-login-screen",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "dead-server --host=localhost --port=2002",
+    "dev1": "dead-server --host=localhost --port=2003",
+    "dev2": "dead-server --host=localhost --port=2004"
   },
   "keywords": [],
   "author": "",
